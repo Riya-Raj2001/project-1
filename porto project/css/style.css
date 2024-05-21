@@ -1,0 +1,84 @@
+
+.bg_image{
+    background-image:url("../assets/first_image.jpg");
+    background-size: cover;
+   
+
+
+}
+
+
+.second_image{
+    padding-left: 700px;
+    margin-top: 50px;
+    z-index: 1;
+    
+}
+.first_p{
+    padding-left: 170px;
+    font-size: 49px;
+}
+.second_p{
+    padding-left:170px ;
+    font-size: 20px;
+}
+.advantages{
+    background-color: white;
+
+}
+.second_bg_image{
+    background-image: url("../assets/image_5.jpg");
+    background-size: cover;
+    height: 600px;
+    
+}
+
+
+
+.viewMore{
+    display: inline-block;
+    transition: 0.1s ease-in;
+}
+.arrow:hover{
+    /* padding-left: 20px;
+    transition: transform .2s; */
+    transform: translateX(+50%);
+     
+   
+}
+.viewMore1{
+    display: inline-block;
+    transition: 0.1s ease-in;
+}
+.arrow1:hover{
+    /* padding-left: 20px;
+    transition: transform .2s; */
+    transform: translateX(+50%);
+             
+}
+.row1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.main, .call, .button1 {
+    flex: 1; 
+}
+
+.cardimg:hover {
+        filter: brightness(50%);
+        /* opacity: 50%; */
+        
+      }
+
+     
+
+ .navbar{
+    position: sticky;
+ }
+ 
+ .hover:hover{
+    color: blue;
+ }
+
+ 
